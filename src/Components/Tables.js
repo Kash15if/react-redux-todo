@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { removeTodo, updateTodo } from "../Redux/Store1";
+import { removeTodo } from "../Redux/Store1";
 
 const Table = ({ name, setName }) => {
   const todos = useSelector((state) => state.todoSlice);
